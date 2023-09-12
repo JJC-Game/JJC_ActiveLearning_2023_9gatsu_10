@@ -13,7 +13,6 @@ use App\Http\Controllers\AppUserController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/app_user/{id}', [AppUserController::class, 'app_user'])->name('al.app_user’);
 
 Route::get('/app_user/{id}', [AppUserController::class, 'app_user'])->name('al.app_user');
 
